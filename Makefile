@@ -21,7 +21,7 @@
 DOCKER   ?= docker
 BUILDX   ?= buildx
 ifeq ($(IMAGE_NAME),)
-REGISTRY ?= nvcr.io/nvidia
+REGISTRY ?= quay.io/mgiessing
 IMAGE_NAME := $(REGISTRY)/k8s-device-plugin
 endif
 VERSION  ?= v0.10.0
