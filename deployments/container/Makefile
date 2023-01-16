@@ -24,7 +24,7 @@ MKDIR    ?= mkdir
 include $(CURDIR)/versions.mk
 
 ifeq ($(IMAGE_NAME),)
-REGISTRY ?= nvcr.io/nvidia
+REGISTRY ?= quay.io/mgiessing
 IMAGE_NAME := $(REGISTRY)/k8s-device-plugin
 endif
 
